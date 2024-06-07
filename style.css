@@ -1,0 +1,331 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header nav
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: black;
+    background-color:white;
+  
+}
+.nav-links
+{
+    display: flex;
+    align-items: center;
+
+}
+nav a 
+{
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.firstsec h1
+{
+    font-size: 85px;
+    margin-left: 165px;
+    margin-right: 25px;
+    margin-top: 135px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color:lightyellow;
+}
+
+.img-container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.main-div
+{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-right: 190px;
+    margin-left: 190px;
+    list-style-type: none;
+
+}
+.main-div h3
+{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: orangered;
+    
+
+}
+.text-container
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text-container h3,.text-container p
+{
+    margin: 0px;
+}
+
+.main-div img
+{
+    height: 65px;
+    width: auto;
+    margin-right: 10px;
+}
+.subdiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+.subdiv img
+{
+    height: 65px;
+    width: 65px;
+}
+.loginbutton
+{
+    color:white;
+    background-color: black;
+    padding:0px;
+    margin: 0px;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 250px;
+    font-size: 16px;
+    
+
+}
+.loginbutton :hover
+{
+    background-color: #a7a2a295;
+    padding: 0px;
+    border: 0px
+}
+.image-insert
+{
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.imageinsert
+{
+    align-items: center;
+    border-radius: 30px;
+}
+.two-boxes{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.box{
+    height: 350px;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box h2
+{
+
+    font-size: 50px;
+    margin-top: 80px;
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    
+
+}
+
+.box p
+{
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    
+}
+
+.box1
+{background-color: rgb(222, 70, 70);
+
+
+}
+.box2
+{
+    background-color:rgb(242, 227, 235) ;
+}
+.box1 h2
+{
+    color: white;
+}
+
+.box1 p
+{
+    color:white;
+}
+
+.box2 h2
+{
+    color: rgb(0, 0, 0);
+    margin-top: 54px;
+    
+}
+
+
+.box2 p
+{
+    color: rgb(0, 0, 0);
+}
+.box1 button
+{
+    background-color: black; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    height: 50px;
+    width: 150px;
+    
+}
+.box2 button
+{
+    background-color:rgb(222, 70, 70); /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+     height: 50px;
+    width: 153px;
+}
+.box1 button
+{
+    margin-right:250px;
+    margin-top: 25px;
+    text-align: center;
+    
+}
+
+
+.box1 button
+{
+   font-size: 20px;
+}
+.box2 button
+{
+   font-size: 17px;
+}
+
+.box2 button
+{
+    margin-right:250px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.box h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.selectbutton
+{
+    margin-left:40px;
+    align-items:center;
+    margin-top:23px;
+    height: 40px;
+    width: 200px;
+    font-size:15px;
+    cursor: pointer;
+}
+.finalsec img
+{
+    margin-bottom: -50px;
+
+}
+
+.lastsec
+{
+    display: flex;
+    margin-left: 500px;
+    margin-top: -110px;
+}
+
+.lastsec2
+{
+    margin-left:200px;
+    margin-right: 200px;
+
+}
+
+.yogesh
+{
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-bottom: 70px;
+    display: flex;
+    list-style-type: none;
+    
+
+}
+
+
+.lastsec1 p
+{
+    cursor: pointer;
+    color: grey;
+}
+.lastsec2 p
+{
+    cursor: pointer;
+    color: grey;
+}
+.lastsec3 p
+{
+    cursor: pointer;
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
